@@ -1,0 +1,15 @@
+div#head{
+    display: block;
+    padding-right: 25%;
+    padding-left:25%;
+    padding-bottom: 5%;
+}
+div#form {
+    display: block;
+    padding-right: 25%;
+    padding-left:25%;
+}
+div#form button {
+    width: 100%;
+    background-color: darkred;
+}
