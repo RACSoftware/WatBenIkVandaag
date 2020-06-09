@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['name']) and $_POST['name'] != ''){
-    $name = $_POST['name'];
+    $name = strip_tags($_POST['name']);
 }
 else{
     header("Location: index.php?message=False");
