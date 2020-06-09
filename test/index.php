@@ -1,9 +1,9 @@
 <?php
 if($_GET){
-    $message = 'je hebt niks ingevuld' ; ?>
+    $message = 'Je hebt niks ingevuld' ; ?>
     <html>
-    <div class="alert alert-danger" role="alert">
-        <?php echo $message ?>
+    <div class="alert alert-danger" role="alert" style="text-align: center">
+        <b><?php echo $message ?></b>
     </div>
     </html>
     <?php
@@ -22,21 +22,17 @@ if($_GET){
     <title>Wat ben ik vandaag</title>
 </head>
 <body>
-<div class="form-group grid" id="head">
-    <h1>Wat ben jij vandaag?</h1>
-</div>
 <div class="form-group grid" id="form">
+    <h1>Wat ben jij vandaag?</h1>
     <form action="result.php" method="post">
-        <div class="form-group row">
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Jouw naam">
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-sm-10">
+        <div class="card" style="width: 100%">
+            <div class="card-body">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Jouw naam" style="text-align: center">
+                <br>
                 <button type="submit" class="btn btn-primary">Vertel mij wat ik vandaag ben!</button>
             </div>
         </div>
+
     </form>
 </div>
 
