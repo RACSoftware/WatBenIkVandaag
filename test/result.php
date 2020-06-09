@@ -7,38 +7,8 @@ else{
     exit;
 }
 
-$number = rand(1,100);
-$status = '';
-if ($number < 10 or $number === 10){
-    $status = 'jij bent gay';
-}
-elseif ($number > 10 and $number < 20 or $number === 20){
-    $status = 'jij bent dom';
-}
-elseif ($number > 20 and $number < 30 or $number === 30){
-    $status = 'jij bent geschikt voor MBO';
-}
-elseif ($number > 30 and $number < 40 or $number === 40){
-    $status = 'jij bent een Full Stack Wordpress Devolper';
-}
-elseif ($number > 40 and $number < 50 or $number === 50){
-    $status = 'jij hebt een lul van 50 cm ;)';
-}
-elseif ($number > 50 and $number < 60 or $number === 60){
-    $status = 'jij hebt een lul van 0.1 mm :(';
-}
-elseif ($number > 60 and $number < 70 or $number === 70){
-    $status = 'jij hebt corona :) RIP';
-}
-elseif ($number > 70 and $number < 80 or $number === 80){
-    $status = 'je kan beter euthenasie plegen ¯\_(ツ)_/¯ ';
-}
-elseif ($number > 80 and $number < 90 or $number === 90){
-    $status = 'je bent geweldig';
-}
-elseif ($number > 90){
-    $status = 'jij bent de mooiste persoon op deze werleld UwU';
-}
+$options = array("Jeroen", "Je", "mag", "ze", "zelf", "toevoegen");
+$status = array_rand(options);
 ?>
 <!doctype html>
 <html lang="en">
