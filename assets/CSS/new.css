@@ -26,3 +26,10 @@ div#result {
 div#result .btn-primary {
     background-color: darkred;
 }
+footer{
+    display: block;
+    padding-right: 25%;
+    padding-left:25%;
+    padding-bottom: 5%;
+    text-align: center;
+}
