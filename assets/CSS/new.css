@@ -33,3 +33,25 @@ footer{
     padding-bottom: 5%;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    div#head{
+        display: block;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    div#form {
+        display: block;
+        padding-right: 5%;
+        padding-left:5%;
+    }
+    div#result {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    footer{
+        display: block;
+        padding-right: 5%;
+        padding-left:5%;
+    }
+}
