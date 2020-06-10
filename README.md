@@ -1,4 +1,4 @@
-# WatBenIkVandaag Road Map 🏃 :running:
+# WatBenIkVandaag Road Map :running:
 
 # Features To Do :computer:
 * Add an admin panel
