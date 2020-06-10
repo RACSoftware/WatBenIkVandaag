@@ -21,6 +21,6 @@
 # Bugs :bug:
 * Currently bug free :tada:
 
-# Contrubitors :trophy:
+# Contributors :trophy:
 * Jeroenyouknow
 * abcdan
