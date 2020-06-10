@@ -20,3 +20,7 @@
 
 # Bugs :bug:
 * Currently bug free :tada:
+
+# Contrubitors :trophy:
+* Jeroenyouknow
+* abcdan
